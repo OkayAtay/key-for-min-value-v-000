@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
   end
   name_hash.collect do |name, num|
     i=0
-    while num[i] < num
+    if num[i] < num
       key = name
     end
     i+=1
