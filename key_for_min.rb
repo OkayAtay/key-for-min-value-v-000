@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   name_hash.each_with_index.collect do |name, num|
     name
   end
-  name_hash.select do |name, num|
+  name_hash.collect do |name, num|
     i=0
     if num[i] < num
       key = name
