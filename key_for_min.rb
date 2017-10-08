@@ -10,8 +10,6 @@ def key_for_min_value(name_hash)
     i=0
     if num[i] < num
       key = name
-    else
-      nil
     end
     i+=1
   end
